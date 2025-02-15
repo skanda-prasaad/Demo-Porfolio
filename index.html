@@ -8,20 +8,91 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <main class="w-full px-8 py-7 font-mono">
-        <nav class="flex justify-between items-center">
-            <h1 class="text-2xl font-medium">Porfolio</h1>
-            <div class="links flex gap-10">
-                <a class="font-medium text-xl" href="#">Home</a>
-                <a class="font-medium text- opacity-40" href="#">About</a>
-                <a class="font-medium text- opacity-40" href="#">Contact</a>
-                <a class="font-medium text- opacity-40" href="#">Work-Together</a>
+    <main class="w-full px-2 py-2 font-mono">
+        <nav class="justify-between items-center flex flex-col md:flex-row p-4 bg-white/80 backdrop-blur-sm shadow-md rounded-lg">
+            <h1 class="text-3xl font-extrabold tracking-tight text-gray-900 transition-colors hover:text-indigo-600">
+              <span class="bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-2 py-1 rounded-md">Portfolio</span>
+            </h1>
+            <div class="links flex gap-5 text-lg mt-3 md:mt-0">
+              <a class="font-semibold text-gray-700 hover:text-indigo-500 transition-colors" href="#">Home</a>
+              <a class="font-medium text-gray-500 hover:text-indigo-500 transition-colors opacity-70" href="#">About</a>
+              <a class="font-medium text-gray-500 hover:text-indigo-500 transition-colors opacity-70" href="#">Contact</a>
+              <a class="font-medium text-gray-500 hover:text-indigo-500 transition-colors opacity-70" href="#">Work Together</a>
             </div>
-        </nav>
-        <section class="w-full mt-15">
-            <h6 class="text-2xl -mb-3 tracking-tighter">Hello I am,</h6>
-            <h1 class="text-8xl -ml-2 tracking-tighter font-bold ">Skanda</h1>
+          </nav>
+          
+          <section class="w-full mt-12 text-center">
+            <h6 class="text-xl -mb-3 tracking-tight text-gray-600 uppercase font-semibold animate-pulse">Hello, I am</h6>
+            <h1 class="text-5xl ml-2 mt-3 tracking-tight font-bold text-gray-900 drop-shadow-md">
+              <span class="text-indigo-600">Skanda</span>
+            </h1>
+            <div class="right-side flex gap-1 mt-5 items-center justify-center">
+              <h3 class="text-lg text-gray-700">[8:30 pm]</h3>
+              <div class="h-[0.2rem] w-12 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-sm shadow-sm"></div>
+              <h3 class="text-lg font-semibold tracking-tight text-gray-800">Creative Frontend Developer</h3>
+            </div>
+          </section>
+          
+        <div class="picture">
+            <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="object-cover pt-8 rounded-md" >
+        </div>
+        <section class=" relative about w-full p-5 pr-0 pb-7 pl-0 mt-15">
+            <img class="absolute w-20 -bottom-10 left-4" src="assets/image 222.png" alt="">
+            <img class="absolute w-20 -top-8 left-0" src="assets/image 223.png" alt="">
+            <img class="absolute w-20 -bottom-15 right-15" src="assets/image 224.png" alt="">
+            <img class="absolute w-25  -top-9 -right-0 " src="assets/image 225.png" alt="">
+            <div class="text">
+                <h1 class="text-[1.5rem] font-bold tracking-tight pt-8 pb-4 pl-3">[I design & build experience]</h1>
+                <p class="text-center font-[300] font-sans text-[1.1rem]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quaerat recusandae cum rerum voluptate necessitatibus autem vel quibusdam velit similique eveniet, repellat incidunt explicabo ducimus perferendis voluptatibus.</p>
+            </div>
         </section>
+        <section class="w-full relative py-10 mt-15">
+            <div class="w-full sticky top-0 px-2 py-9 flex items-center justify-start gap-2 bg-slate-100">
+                <h1 class="text-3xl font-bold">2017</h1>
+                <div class="w-20 h-px bg-black"></div>
+                <h1 class="text-3xl tracking-tighter font-semibold opacity-50">The beginning</h1>
+            </div>
+            <div class="image-container w-full px-2 py-5 grid gap-5">
+                <div class="w-full px-1 py-1 ">
+                    <img src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-cover left-6" alt="">
+                </div>
+                <div class="w-full px-1 py-1  ">
+                    <img src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-cover left-6" alt="">
+                </div>
+                <div class="w-full px-1 py-1 ">
+                    <img src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-cover left-6" alt="">
+                </div>
+                <div class="w-full px-1 py-1 ">
+                    <img src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-cover left-6" alt="">
+                </div>
+                <div class="w-full px-1 py-1  ">
+                    <img src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-cover left-6" alt="">
+                </div>
+            </div>
+        </section>
+        <section
+        class="w-full h-100 flex flex-col justify-center items-center relative bg-[url('assets/bgdots.png')]"
+      >
+        <h2 class="text-4xl mt-0 mb-10">I am great at</h2>
+        <img class="w-full" src="assets/tech.png" alt="" />
+      </section>
     </main>
+    <footer class="w-full mt-20 pb-10">
+        <div class="text-center mb-10">
+            <h2 class="text-4xl font-bold mb-4">Let's Work Together</h2>
+            <p class="text-lg opacity-70 max-w-2xl mx-auto">I'm available for freelance projects. Let's create something amazing together!</p>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-12">
+            <a href="#" class="px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">Email Me</a>
+            <a href="#" class="px-8 py-3 border-2 border-black rounded-full hover:bg-black hover:text-white transition-colors">Download CV</a>
+        </div>
+        <div class="flex justify-center gap-8 mb-8">
+            <a href="#" class="opacity-60 hover:opacity-100 transition-opacity">Twitter</a>
+            <a href="#" class="opacity-60 hover:opacity-100 transition-opacity">GitHub</a>
+            <a href="#" class="opacity-60 hover:opacity-100 transition-opacity">LinkedIn</a>
+            <a href="#" class="opacity-60 hover:opacity-100 transition-opacity">Instagram</a>
+        </div>
+        <p class="text-center text-sm opacity-50">© 2025 Tailwindcss. All rights reserved.</p>
+    </footer>
 </body>
 </html>
